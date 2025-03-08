@@ -1,57 +1,38 @@
-body{
-    background-color: rgb(53, 44, 61);
-    display: grid;
-    place-items: center;
+body {
+  background-color: rgb(53, 44, 61);
+  display: grid;
+  place-items: center;
 }
 
-.adjustedWidth{
-    max-width: 1440px;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    flex-direction: column;
+.adjustedWidth {
+  max-width: 1440px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
 }
 
 table {
-    border-collapse: collapse;
-    border-spacing: 0;
+  border-collapse: collapse;
+  border-spacing: 20px;
 }
 td {
-    width: 100px;
-    height: 100px;
-    text-align: center;
+  width: 100px;
+  height: 100px;
+  background-color: rgba(134, 163, 163, 0.199);
+  border-radius: 35px;
 }
-td:hover{
-  background-color: rgb(66, 55, 77);
+td:hover {
+  background-color: rgba(121, 117, 126, 0.548);
   cursor: pointer;
 }
 
-table {
-    border-collapse: collapse;
-    border-spacing: 0;
-  }
-  table td, table th {
-    border: 2px solid black;
-  }
-  table tr:first-child th {
-    border-top: 0;
-  }
-  table tr td:first-child,
-  table tr th:first-child {
-    border-left: 0;
-  }
-  table tr td:last-child,
-  table tr th:last-child {
-    border-right: 0;
-  }
+.showCurrentPlayer {
+  width: 45px;
+  opacity: 50%;
+  margin-bottom: 10px;
+}
 
-
-  .showTurnImg{
-    width: 45px;
-    opacity: 50%;
-    margin-bottom: 10px;
-  }
-
-  h1{
-    margin-block-end: 10px;
-  }
+h1 {
+  margin-block-end: 10px;
+}
